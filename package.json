@@ -5,6 +5,7 @@
   "author": "Arthur Souza <arthur@arthursouza.com.br>",
   "license": "MIT",
   "devDependencies": {
+    "bootstrap": "4.0.0-beta.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-concat": "^2.6.1",
