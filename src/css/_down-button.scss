@@ -1,0 +1,29 @@
+%down-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  background: transparent;
+  outline: none;
+
+  &:hover {
+    svg {
+      animation: .7s ease-in-out downButton infinite;
+    }
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+  }
+}
+
+@keyframes downButton {
+  0% {margin-top: 0;}
+  50% {margin-top: 10px;}
+  100% {margin-top: 0;}
+}

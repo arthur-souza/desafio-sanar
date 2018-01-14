@@ -1,0 +1,125 @@
+// Section One
+.section-one {
+  background: #2D3E50;
+  padding: 30px 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg,#16A086 0,#16A086 10%,#18B596 0,#18B596 20%,#1ACFAC 0,#1ACFAC 30%,#A0F1E0 0,#A0F1E0 40%,#18B596 0,#18B596 50%,#1ACFAC 0,#1ACFAC 60%,#A0F1E0 0,#A0F1E0 70%, #18B596 0, #18B596 80%, #1ACFAC 0, #1ACFAC 90%, #A0F1E0);
+  }
+}
+
+.section-one__brand {
+  text-align: center;
+  margin-bottom: 20px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+%section-one__text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section-one__title {
+  @extend %section-one__text;
+  font-size: 22px;
+  line-height: 1.3;
+
+  @media (min-width: $screen-sm-min) {
+    font-size: 26px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    font-size: 32px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    font-size: 44px;
+  }
+}
+
+.section-one__subtitle {
+  @extend %section-one__text;
+  font-size: 14px;
+
+  @media (min-width: $screen-sm-min) {
+    margin: 10px 60px;
+    font-size: 14px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    font-size: 16px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    font-size: 19px;
+  }
+}
+
+.section-one__buttons {
+  margin-top: 50px;
+  text-align: center;
+
+  @media (min-width: $screen-sm-min) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+}
+
+.section-one__buttons__button {
+  width: 225px;
+  padding: 22px 0;
+  font-size: 16px;
+  color: #fff;
+  background: #22303d;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  transition: .3s all ease-in-out;
+
+  &:hover {
+    background: #1c2833;
+  }
+}
+
+.section-one__buttons__button--featured {
+  background: #16A086;
+  border: 0;
+  border-bottom: 4px solid #3BD4B6;
+  margin-bottom: 20px;
+
+  &:hover {
+    background: #0e7d68;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+}
+
+.section-one__down {
+  display: block;
+  text-align: center;
+  margin-top: 65px;
+
+  @media (min-width: $screen-sm-min) {
+    margin-top: 100px;
+  }
+}
+
+.section-one__down__button {
+  @extend %down-button;
+}
