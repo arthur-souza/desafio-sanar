@@ -1,0 +1,1 @@
+!function(t,e){e.querySelector("[data-toggle-menu]").addEventListener("click",function(t){e.querySelector(this.getAttribute("data-toggle-menu")).classList.toggle("isActive")})}(window,document);
