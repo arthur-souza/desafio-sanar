@@ -15,7 +15,7 @@ const files = {
 
 const sassBasePath = [
   './src/css/',
-  './node_modules/bootstrap/scss/'
+  './node_modules/bootstrap-sass/assets/stylesheets'
 ];
 
 gulp.task('js', () => {
