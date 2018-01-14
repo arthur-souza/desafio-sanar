@@ -1,1 +1,1 @@
-!function(t,e){e.querySelector("[data-toggle-menu]").addEventListener("click",function(t){e.querySelector(this.getAttribute("data-toggle-menu")).classList.toggle("isActive")})}(window,document);
+!function(e,t){t.querySelector("[data-toggle-menu]").addEventListener("click",function(e){t.querySelector(this.getAttribute("data-toggle-menu")).classList.toggle("isActive")}),t.querySelector(".section-five__form").addEventListener("submit",function(e){e.preventDefault(),this.querySelector(".section-five__form__errors").classList.add("isActive")})}(window,document);

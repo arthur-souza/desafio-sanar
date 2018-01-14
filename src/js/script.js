@@ -7,4 +7,11 @@
     menu.classList.toggle('isActive')
   })
 
+  // show newsletter error
+  var form = doc.querySelector('.section-five__form')
+  form.addEventListener('submit', function(e) {
+    e.preventDefault()
+    this.querySelector('.section-five__form__errors').classList.add('isActive')
+  })
+
 })(window, document)
