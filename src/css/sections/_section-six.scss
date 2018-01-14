@@ -1,0 +1,98 @@
+.section-six {
+  padding-top: 200px;
+}
+
+.section-six__tag {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #afafaf;
+  text-align: center;
+}
+
+.section-six__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+  color: #333333;
+  margin: 5px 0;
+}
+
+.section-six__list {
+  margin: 40px auto 0 auto;
+  list-style: none;
+  padding: 0;
+
+  @media (min-width: $screen-sm-min) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: 80%;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: 74%;
+  }
+}
+
+.section-six__list__item {
+  margin-bottom: 20px;
+  padding: 30px 15px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+
+  &:nth-child(2n + 2) {
+    margin-right: 0;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    display: inline-block;
+    width: calc(50% - 20px);
+    margin-right: 20px;
+  }
+}
+
+.section-six__list__item__image {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: #ebebeb;
+  overflow: hidden;
+  margin: 10px auto;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.section-six__list__item__name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333333;
+  margin-top: 15px 0 10px;
+}
+
+.section-six__list__item__username,
+.section-six__list__item__description {
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  color: #16A086;
+}
+
+.section-six__list__item__description {
+  margin-top: 25px;
+  color: #afafaf;
+  line-height: 1.5;
+}
