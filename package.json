@@ -4,8 +4,12 @@
   "main": "index.js",
   "author": "Arthur Souza <arthur@arthursouza.com.br>",
   "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
+    "gh-pages": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-concat": "^2.6.1",
