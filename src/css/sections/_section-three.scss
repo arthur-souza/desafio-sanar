@@ -1,0 +1,50 @@
+.section-three {
+  padding: 70px 0;
+
+  @media (min-width: $screen-md-min) {
+    padding: 100px 0;
+  }
+}
+
+@import "../app-content";
+
+.section-three__app-content {
+  @extend %app-content;
+
+  @media (min-width: $screen-sm-min) {
+    flex-direction: row-reverse;
+  }
+}
+
+.section-three__app-content__info {
+  @extend %app-content__info;
+
+  @media (min-width: $screen-sm-min) {
+    margin: 0 0 0 70px;
+  }
+
+}
+
+.section-three__app-content__info__hat {
+  @extend %app-content__info__hat;
+}
+
+.section-three__app-content__info__title {
+  @extend %app-content__info__title;
+
+  @media (min-width: $screen-sm-min) {
+    padding: 0;
+  }
+}
+
+.section-three__app-content__info__description {
+  @extend %app-content__info__description;
+}
+
+.section-three__app-content__image {
+  @extend %app-content__image;
+
+  @media (min-width: $screen-sm-min) {
+    text-align: right;
+  }
+}
