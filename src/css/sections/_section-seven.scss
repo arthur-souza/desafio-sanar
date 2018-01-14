@@ -1,0 +1,55 @@
+.section-seven {
+  padding-bottom: 60px;
+  padding-top: 0;
+}
+
+.section-seven__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-seven__description {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  color: #afafaf;
+  line-height: 1.5;
+
+  @media (min-width: $screen-sm-min) {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: 50%;
+  }
+}
+
+.section-seven__container-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.section-seven__button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #16a086;
+  border: 0;
+  border-bottom: 4px solid #3bd4b6;
+  border-radius: 5px;
+  outline: none;
+  padding: 20px 30px;
+  transition: .3s all ease-in-out;
+
+  &:hover {
+    background: #0e7d68;
+  }
+}
+
