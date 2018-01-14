@@ -1,0 +1,33 @@
+.section-two {
+  padding: 70px 0;
+
+  @media (min-width: $screen-md-min) {
+    padding: 100px 0;
+  }
+}
+
+@import "../app-content";
+
+.section-two__app-content {
+  @extend %app-content;
+}
+
+.section-two__app-content__info {
+  @extend %app-content__info;
+}
+
+.section-two__app-content__info__hat {
+  @extend %app-content__info__hat;
+}
+
+.section-two__app-content__info__title {
+  @extend %app-content__info__title;
+}
+
+.section-two__app-content__info__description {
+  @extend %app-content__info__description;
+}
+
+.section-two__app-content__image {
+  @extend %app-content__image;
+}

@@ -3,9 +3,10 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  min-height: calc(100vh - 88px);
+  padding: 95px 0;
 }
 
 @import "./_down-button";
 @import "./sections/section-one";
+@import "./sections/section-two";
 
