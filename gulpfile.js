@@ -3,6 +3,7 @@ const plugin = require('gulp-load-plugins')();
 
 const files = {
   js: [
+    './node_modules/jquery/dist/jquery.min.js',
     './src/js/script.js'
   ],
   css: [
