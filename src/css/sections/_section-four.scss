@@ -1,0 +1,86 @@
+.section-four__tag {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #afafaf;
+  text-align: center;
+}
+
+.section-four__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+  color: #333333;
+  margin: 5px 0;
+}
+
+.section-four__list {
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+
+  @media (min-width: $screen-sm-min) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: 74%;
+  }
+}
+
+.section-four__list__item {
+  display: inline-block;
+  width: 300px;
+  margin-bottom: 20px;
+
+  &:nth-child(3n + 3) {
+    margin-right: 0;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    width: calc(33.3% - 40px);
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+}
+
+.section-four__list__item__image {
+  padding: 15px;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.section-four__list__item__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 15px;
+  color: #556655;
+}
+
+.section-four__list__item__description {
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  color: #afafaf;
+  margin-top: 7px;
+}
+
+.section-four__down-button__content {
+  margin-top: 30px;
+  text-align: center;
+}
